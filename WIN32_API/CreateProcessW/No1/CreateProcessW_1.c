@@ -13,7 +13,7 @@ int main()
     ZeroMemory(&pi, sizeof(pi));
 
     //Pfad zum Programm der gestartet werden soll
-    LPCWSTR appPath = L"C:\\Pfad\\Zum\\Programm.exe"; // ersetzen durch programm
+    LPCWSTR appPath = L"C:\\Windows\\System32\\calc.exe"; // ersetzen durch programm das geöffnet werden soll
 
     //Prozess erstellen
 
